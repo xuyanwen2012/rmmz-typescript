@@ -1,0 +1,26 @@
+# Editors
+.idea
+*.iml
+
+# ignore yarn.lock
+yarn.lock
+
+# Dependency directory
+node_modules
+bower_components
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
