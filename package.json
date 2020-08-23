@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "gts check",
     "clean": "gts clean",
-    "compile": "tsc",
+    "compile": "rollup -c",
     "fix": "gts fix",
     "prepare": "npm.cmd run compile",
     "pretest": "npm.cmd run compile",
@@ -16,8 +16,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^13.11.1",
     "gts": "^2.0.2",
+    "rollup": "^2.26.5",
+    "rollup-plugin-dts": "^1.4.11",
     "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "pixi.js": "^5.3.3"
   }
 }
